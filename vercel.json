@@ -1,7 +1,8 @@
 {
   "build": {
     "env": {
-      "VERCEL_EXPERIMENTAL_HONO_BUILD": "1"
+      "VERCEL_EXPERIMENTAL_BACKENDS": "1",
+      "VERCEL_CLI_VERSION": "vercel@https://vercel-jvvqjhjgy.vercel.sh/tarballs/vercel.tgz"
     }
   }
 }
