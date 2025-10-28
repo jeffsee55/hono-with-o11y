@@ -1,0 +1,7 @@
+{
+  "build": {
+    "env": {
+      "VERCEL_EXPERIMENTAL_HONO_BUILD": "1"
+    }
+  }
+}
