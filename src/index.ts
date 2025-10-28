@@ -15,5 +15,15 @@ app.get('/users/:id', (c) => {
   return c.text(`User ${c.req.param('id')}`)
 })
 
+const admin = new Hono()
+admin.get('/', (c) => {
+  return c.text('Admin')
+})
+admin.get('/auth', (c) => {
+  return c.text('Admin Auth')
+})
+app.route('/admin', admin)
+console.log(app.routes)
+
 
 export default app
