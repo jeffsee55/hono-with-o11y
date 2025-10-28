@@ -2,7 +2,7 @@
   "build": {
     "env": {
       "VERCEL_EXPERIMENTAL_BACKENDS": "1",
-      "VERCEL_CLI_VERSION": "vercel@https://vercel-jvvqjhjgy.vercel.sh/tarballs/vercel.tgz"
+      "VERCEL_CLI_VERSION": "vercel@https://vercel-6yey03fmk.vercel.sh/tarballs/vercel.tgz"
     }
   }
 }
